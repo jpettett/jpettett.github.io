@@ -6,6 +6,7 @@ body {
 
 body {
   background-image: url('grid-3227459_1920.jpg');
+  background-size: cover;
   font-family: 'Open Sans', sans-serif;
   color: #494646;
   display: flex;
@@ -49,7 +50,7 @@ footer {
 }
 /* hinted from freecodecamp */
 .footer {
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   position: absolute;
   bottom: 0;
   width: 100%;
