@@ -1,0 +1,63 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: url('grid-3227459_1920.jpg');
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  color: #494646;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  height: 300px;
+  width: 400px;
+  margin: 10px;
+}
+
+img:hover {
+  -moz-box-shadow: 0 0 10px rgb(61, 61, 61);
+  -webkit-box-shadow: 0 0 10px rgb(61, 61, 61);
+  box-shadow: 0 0 10px rgb(61, 61, 61);
+}
+
+.front-end {
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  justify-content: center;
+  display: inline-flex;
+}
+
+/* Media */
+
+@media only screen and (max-width: 1000px) {
+  .front-end {
+    display: block;
+    border: none;
+  }
+
+  img {
+    width: 350px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: none;
+    background-color: white;
+  }
+  h1 {
+    font-weight: 800;
+  }
+}
