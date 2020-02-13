@@ -8,6 +8,8 @@ body {
 
 body {
   background-image: url('grid-3227459_1920.jpg');
+  background-attachment: fixed;
+  background-position: center center;
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
   color: #494646;

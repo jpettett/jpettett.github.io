@@ -9,6 +9,8 @@ body {
 body {
   background-image: url('grid-3227459_1920.jpg');
   background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   font-family: 'Open Sans', sans-serif;
   color: #494646;
   display: flex;
@@ -40,7 +42,7 @@ img:hover {
 
 /* Media */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .front-end {
     display: block;
     border: none;
@@ -54,10 +56,17 @@ img:hover {
 
 @media only screen and (max-width: 600px) {
   body {
-    background-image: none;
-    background-color: white;
+    /* background-image: none;
+    background-color: white; */
   }
   h1 {
-    font-weight: 800;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    /* font-weight: 800; */
+  }
+  h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    text-decoration: underline;
   }
 }
