@@ -17,8 +17,21 @@ body {
   flex-direction: column;
 }
 
-h1 {
+h1,
+h2 {
   text-align: center;
+  color: rgb(52, 48, 48);
+}
+
+a {
+  font-size: 18px;
+  color: rgb(211, 113, 48);
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 img {
@@ -40,10 +53,17 @@ img:hover {
   display: inline-flex;
 }
 
+.fullstack {
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  display: inline-flex;
+}
+
 /* Media */
 
 @media only screen and (max-width: 900px) {
-  .front-end {
+  .front-end,
+  .fullstack {
     display: block;
     border: none;
   }

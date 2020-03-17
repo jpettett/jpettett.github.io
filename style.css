@@ -41,6 +41,11 @@ a {
   padding-right: 5px;
 }
 
+img {
+  height: 300px;
+  width: 300px;
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -50,11 +55,10 @@ footer {
 }
 
 .link {
-  border-right: 1px solid;
+  border-right: 1px solid rgb(211, 113, 48);
 }
-/* hinted from freecodecamp */
+
 .footer {
-  /* margin-bottom: 5px; */
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -62,4 +66,44 @@ footer {
 
 .footer-links {
   color: rgb(75, 71, 71);
+}
+
+/* Drop Down */
+
+.dropbtn {
+  /* background-color: #ffffff; */
+  color: rgb(211, 113, 48);
+  padding-right: 7px;
+  font-size: 18px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: 1px solid rgba(0, 0, 0, 0.208);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
