@@ -68,13 +68,14 @@ footer {
 }
 
 .footer {
-  position: fixed;
+  margin-top: auto;
   bottom: 0;
   width: 100%;
 }
 
 .footer-links {
   color: rgb(75, 71, 71);
+  margin: 0px 7px 0px 3px;
 }
 
 /* Drop Down */
@@ -115,7 +116,7 @@ footer {
   display: block;
 }
 
-/* Important! Remove margin when Carousel feature is added */
+/* Important! Remove margin if Carousel feature is added */
 div.carousel-item.active,
 .col-md-4 {
   margin-top: 10px;
@@ -145,7 +146,7 @@ div.carousel-item.active,
     display: inline-block;
   }
   .footer {
-    position: fixed;
+    margin-top: auto;
     bottom: 0;
     width: 100%;
   }
