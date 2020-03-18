@@ -29,25 +29,13 @@ h3 {
   margin: 0 0 30px 150px;
 }
 
+img {
+  height: 250px;
+}
+
 nav {
   background: rgba(255, 255, 255, 0.6);
   text-align: center;
-}
-
-a {
-  font-size: 18px;
-  color: rgb(211, 113, 48);
-  text-decoration: none;
-  padding-right: 5px;
-}
-
-img {
-  height: 300px;
-  width: 300px;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 footer {
@@ -55,11 +43,32 @@ footer {
 }
 
 .link {
-  border-right: 1px solid rgb(211, 113, 48);
+  font-size: 18px;
+  color: rgb(211, 113, 48);
+  text-decoration: none;
+  padding-right: 50px;
+  /* border-right: 1px solid rgb(211, 113, 48); */
+}
+
+.portfolio {
+  font-size: 18px;
+  color: rgb(211, 113, 48);
+  text-decoration: none;
+  padding-right: 1px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: rgb(211, 113, 48);
+}
+
+.portfolio:hover {
+  text-decoration: underline;
+  color: rgb(211, 113, 48);
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -71,8 +80,6 @@ footer {
 /* Drop Down */
 
 .dropbtn {
-  /* background-color: #ffffff; */
-  color: rgb(211, 113, 48);
   padding-right: 7px;
   font-size: 18px;
   border: none;
@@ -106,4 +113,35 @@ footer {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* Important! Remove margin when Carousel feature is added */
+div.carousel-item.active,
+.col-md-4 {
+  margin-top: 10px;
+  display: inline-flex;
+}
+
+.controls-top,
+.btn-floating {
+  text-align: center;
+  color: rgb(91, 119, 143);
+  justify-content: center;
+  margin: 5px 30px 5px 0px;
+}
+
+.featured {
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+  div.carousel-item.active,
+  .col-md-4 {
+    display: inline-block;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 }

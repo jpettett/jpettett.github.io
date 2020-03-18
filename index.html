@@ -5,9 +5,14 @@
         <title>Joseph Pettett</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Bootstrap link here -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <!-- font awesome here -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
         
     </head>
     <body>
@@ -18,7 +23,6 @@
         <nav>
             <a class="link" href="about.html">About</a>
             <span> </span>
-            <!-- <a class="link" href="#">Contact</a> -->
             <div class="dropdown link">
                 <a class="dropbtn">Contact</a>
                 <div class="dropdown-content">
@@ -28,19 +32,107 @@
                 </div>
             </div>
             <span> </span>
-            <a href="portfolio.html">Portfolio</a>
+            <a class="portfolio" href="portfolio.html">Portfolio</a>
         </nav>
-        <div>
-            <!-- Space for possible scrollbar featuring imgs of portfolio  -->
-        </div>
         
+        <main>
+            <h2 class="featured">Featured Work</h2>
+            <!-- Important! Carousel starts here  -->
+            <!--Carousel Wrapper-->
+            <!--Controls-->
+           
+                <!-- <div class="controls-top">
+                    <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-double-left" style="font-size:40px"></i></a>
+                    <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-double-right" style="font-size:40px"></i></a>
+                </div> -->
+            
+            <!--/.Controls-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-interval="false" data-ride="carousel">
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+        
+                <!--First slide-->
+                <div class="carousel-item active">
+        
+                    <div class="col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top"
+                                src="/images/jurassicpark.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Jurassic Park Trivia</h4>
+                                <p class="card-text">Basic trivia game with timer function built with HTML, CSS and JavaScript</p>
+                                <a class="btn btn-primary" href="https://github.com/jpettett/jp-trivia" target="_blank">Here</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top"
+                                src="/images/nasa.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Nasa APOD</h4>
+                                <p class="card-text">Front end centered web applicaiton built using React hooks and NASA's public API.</p>
+                                
+                                <a class="btn btn-primary" href="https://nasaastropod.herokuapp.com/" target="_blank">Here</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4">
+                        <div class="card mb-2">
+                            <img class="card-img-top"
+                                src="/images/bookbear.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Book Bear</h4>
+                                <p class="card-text">Full stack MERN application built with React, MongoDB, Express and NodeJS. Developed with testing using Mocha and Chai for the back end. </p>
+                                <a class="btn btn-primary" href="http://book-bear.herokuapp.com/books" target="_blank">Here</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+                <!--/.First slide-->
+
+                <!--Second slide-->
+                
+                    
+                    
+                
+                </div>
+                <!--/.Second slide-->
+        
+                <!--Third slide-->
+                
+                <!--/.Third slide-->
+        
+            </div>
+            <!--/.Slides-->
+        
+        </div>
+        <!--/.Carousel Wrapper-->
+        <!-- Carousel ends here -->
+    </main>
            
         <footer class="footer">
+            
             <a class="footer-links" href="https://github.com/jpettett" target="_blank">
-            <i class="fa fa-github" style="font-size:30px"></i></a>
+            <i class="fab fa-github" style="font-size:30px"></i></a>
             <a class="footer-links" href="https://www.linkedin.com/in/josephpettett/" target="_blank">
-            <i class="fa fa-linkedin-square" style="font-size:30px"></i></a>
+            <i class="fab fa-linkedin" style="font-size:30px"></i></a>
         </footer>
-        
+        <!-- jquery/bootstrap script tags -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
     </body>
 </html>
