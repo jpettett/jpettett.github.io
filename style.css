@@ -115,21 +115,18 @@ footer {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-/* Important! Remove margin if Carousel feature is added */
-div.carousel-item.active,
-.col-md-4 {
+/* card css */
+.container {
   margin-top: 10px;
-  display: inline-flex;
+  display: flex;
 }
 
-.controls-top,
-.btn-floating {
-  text-align: center;
-  color: rgb(91, 119, 143);
-  justify-content: center;
-  margin: 5px 30px 5px 0px;
+.card {
+  width: 25rem;
+  margin: 0px 25px 0px 10px;
 }
+
+/* end card css */
 
 .featured {
   margin-top: 5px;
@@ -140,9 +137,21 @@ div.carousel-item.active,
   margin-left: 15px;
 }
 
+/* media */
+@media only screen and (max-width: 1300px) {
+  .card {
+    height: 35rem;
+    margin: 0px 10px 10px 10px;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
-  div.carousel-item.active,
-  .col-md-4 {
+  .container {
+    display: inline-block;
+    text-align: center;
+  }
+  .card {
+    width: 21rem;
     display: inline-block;
   }
   .footer {
