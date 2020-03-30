@@ -21,10 +21,10 @@
             <h3>Software Engineer</h3>
         </header>
         <nav>
-            <a class="link" href="https://docs.google.com/document/d/1Fg47qRdtRZGL7aCnyluZjXNQhEBTtqx8OFrn6SJeCnc/edit#heading=h.5rf9wr4r3no2" target="_blank">Resume</a>
+            <a class="link" data-toggle="modal" data-target="#aboutMeModal" style="color: rgb(211, 113, 48);" >About</a>
             <span> </span>
             <div class="dropdown link">
-                <a class="dropbtn">Contact</a>
+                <a class="dropbtn" style="color: rgb(211, 113, 48);">Contact</a>
                 <div class="dropdown-content">
                     <a href="mailto:joseph.pettett@gmail.com">joseph.pettett@gmail.com</a>
                     <a href="https://www.linkedin.com/in/josephpettett/">LinkedIn</a>
@@ -34,7 +34,32 @@
             <span> </span>
             <a class="portfolio" href="portfolio.html">Portfolio</a>
         </nav>
-        
+        <!-- About Modal -->
+        <div class="modal fade" id="aboutMeModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="aboutMeModal">Joseph Pettett</h5>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/coding.jpg" style="padding: 0px 0px 10px 40px;">
+                        <p>The way I approach my role as a software engineer is similar to how I approach my day to day life - I like to meet each
+                        day with curiosity, thoughtfulness and drive.</p>
+                        <p>Working as a wildland firefighter taught me to stay calm, think clearly and act decisively. These skills help facilitate
+                        cohesive team dynamics and thoughtful decision making under pressure.</p>
+                        <p>My time spent in eCommerce instilled an entrepreneurial spirit. Passion for intelligent design, creative problem solving
+                        and a willingness to learn and adopt new technologies helped keep our company competitive in the market.</p>
+                        <p>I am excited to continue utilizing my cumulative experiences to solve more complex problems as a software engineer.</p>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- About Modal End -->
         <main>
             <h2 class="featured">Featured Work</h2>
             <!-- Cards start here  -->
@@ -90,6 +115,8 @@
             <!-- Email -->
             <a class="footer-links" href="mailto:joseph.pettett@gmail.com" target="_blank">
             <i class="fas fa-envelope-square" style="font-size:30px"></i></a>
+            <!-- Resume -->
+            <a class="footer-links" href="https://drive.google.com/file/d/1bt3e3Z_4eX4eUZJvdXxgMpDrJBbj9LCh/view" target="_blank"><i class="fas fa-file-pdf" style="font-size:30px"></i></a>
         </footer>
         <!-- jquery/bootstrap script tags -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -44,10 +44,8 @@ footer {
 
 .link {
   font-size: 18px;
-  color: rgb(211, 113, 48);
   text-decoration: none;
   padding-right: 50px;
-  /* border-right: 1px solid rgb(211, 113, 48); */
 }
 
 .portfolio {
@@ -58,13 +56,13 @@ footer {
 }
 
 .link:hover {
-  text-decoration: underline;
   color: rgb(211, 113, 48);
+  cursor: pointer;
 }
 
 .portfolio:hover {
-  text-decoration: underline;
   color: rgb(211, 113, 48);
+  text-decoration: none;
 }
 
 .footer {
