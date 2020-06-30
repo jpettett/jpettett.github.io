@@ -94,10 +94,10 @@ header {
 }
 
 #pm {
-  background-image: url('/Images/joanna-kosinska-1_CMoFsPfso-unsplash\ \(6\).jpg');
+  background-image: url('../Images/joanna-kosinska-1_CMoFsPfso-unsplash\ \(6\).jpg');
   color: rgb(0, 0, 0);
   text-align: center;
-  background-size: 1500px;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
   width: 100%;
