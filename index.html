@@ -1,130 +1,189 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Joseph Pettett</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- Bootstrap link here -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <!-- font awesome here -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-        
-    </head>
-    <body>
-        <header>
-            <h1>Joseph Pettett</h1>
-            <h3>Entrepreneur. Designer. Developer.</h3>
-        </header>
-        <nav>
-            <a class="link" data-toggle="modal" data-target="#aboutMeModal" style="color: rgb(211, 113, 48);" >About</a>
-            <span> </span>
-            <div class="dropdown link">
-                <a class="dropbtn" style="color: rgb(211, 113, 48);">Contact</a>
-                <div class="dropdown-content">
-                    <a href="mailto:joseph.pettett@gmail.com">joseph.pettett@gmail.com</a>
-                    <a href="https://www.linkedin.com/in/josephpettett/">LinkedIn</a>
-                    <a href="tel:+19257855347">(925) 785 - 5347</a>
-                </div>
-            </div>
-            <span> </span>
-            <a class="portfolio" href="#">Portfolio </a>
-        </nav>
-        <!-- About Modal -->
-        <div class="modal fade" id="aboutMeModal" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="aboutMeModal">Joseph Pettett</h5>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <img src="images/coding.jpg" style="width:100%">
-                        <p>The way I approach my role in development is similar to how I approach my day to day life - I like to meet each
-                        day with curiosity, thoughtfulness and drive.</p>
-                        <p>Working as a wildland firefighter taught me to stay calm, think clearly and act decisively. These skills help facilitate
-                        cohesive team dynamics and thoughtful decision making under pressure.</p>
-                        <p>My time spent in eCommerce instilled an entrepreneurial spirit. Passion for intelligent design, creative problem solving
-                        and a willingness to learn and adopt new technologies helped keep our company competitive in the market.</p>
-                        <p>I am excited to continue utilizing my cumulative experiences to solve more complex problems.</p>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joseph Pettett</title>
+    <link rel="stylesheet" href="./css/index.styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <a class="nav-item nav-link active" href="#about">About</a>
+        <a class="nav-item nav-link active" href="#portfolio">Engineering <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="#pm">Product Management</a>
+        <a class="nav-item nav-link active" href="#contact" tabindex="1">Contact</a>
+    </nav>
+    <div id="particles-js"></div>
+    <header class="header">
+        <div class="introduction">
+            <h2 class="greeting">Hi I'm<span class="name"> Joseph.</span></h2>
+            <h2 class="what-am-i">Entrepreneur. Designer. Developer. </h2>
         </div>
-    </div>
-        <!-- About Modal End -->
-        <main>
-            <h2 class="featured">Featured Engineering Work</h2>
+        <a role="button" class="btn btn-outline-light" href="#portfolio">
+            View My Work >>>
+        </a>
+    </header>
+    <section id="about">
+        <div class="about-me">
+            <h1>About</h1>
+            <p class="introduction-paragraph">
+                With a combined 10 years of entrepreneurship and management coupled with a strong technical background
+                I am able to meet challenges with curiosity, thoughtfulness and drive.
+                <br>
+                Working as a wildland firefighter taught me to stay calm, think clearly and act decisively. These skills
+                help facilitate cohesive team dynamics and thoughtful decision making under pressure.
+                <br>
+                My time spent as an eCommerce co-founder fostered my entrepreneurial spirit. Passion for intelligent
+                design, creative problem solving and a willingness to learn and adopt new technologies helped keep our
+                company competitive in the market for many years.
+                <br>
+                I am excited to continue utilizing my cumulative experiences to solve more complex problems as a
+                software engineer.
+            </p>
+            <img class="dollar-sign-icon" src="https://img.icons8.com/cotton/64/000000/business-management.png" />
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="portfolio-header">
+            <h1 class="featured-work">Featured Engineering Work</h1>
             <!-- Cards start here  -->
             <div class="container">
                 <!-- Card 1 -->
                 <div class="card mb-2 shadow p-3 mb-5 bg-white rounded">
-                    <img class="card-img-top"
-                        src="/images/ridgeramble.png"
-                        alt="Card image cap">
-                          <div class="card-body">
-                            <h4 class="card-title">Ridgeline Ramble</h4>
-                            <p class="card-text">Blog/Post style web application built with React, React bootstrap, Python and Django. Features back end user authentication using JSON web token. </p>
-                            <a class="btn btn-primary" href="https://ridgeline-ramble-app.herokuapp.com/home" target="_blank">Application</a>
-                                <a class="btn btn-primary" href="https://github.com/jpettett/ridgelineramble-frontend" target="_blank">Github</a>
-                            </div>
+                    <img class="card-img-top" src="/images/ridgeramble.png" alt="Card image cap" />
+                    <div class="card-body">
+                        <h4 class="card-title">Ridgeline Ramble</h4>
+                        <p class="card-text">
+                            Blog/Post style web application built with React, React
+                            bootstrap, Python and Django. Features back end user
+                            authentication using JSON web token.
+                        </p>
+                        <a class="btn btn-primary" href="https://ridgeline-ramble-app.herokuapp.com/home"
+                            target="_blank">Application</a>
+                        <a class="btn btn-primary" href="https://github.com/jpettett/ridgelineramble-frontend"
+                            target="_blank">Github</a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card mb-2 shadow p-3 mb-5 bg-white rounded">
+                    <img class="card-img-top" src="/images/nasa.png" alt="Card image cap" />
+                    <div class="card-body">
+                        <h4 class="card-title">Nasa APOD</h4>
+                        <p class="card-text">
+                            Front end centered web applicaiton built using React hooks and
+                            NASA's public API.
+                        </p>
+
+                        <a class="btn btn-primary" href="https://nasaastropod.herokuapp.com/"
+                            target="_blank">Application</a>
+                        <a class="github btn btn-primary" href="https://github.com/jpettett/nasa-apod"
+                            target="_blank">Github</a>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="card mb-2 shadow p-3 mb-5 bg-white rounded">
+                    <img class="card-img-top" src="/images/bookbear.png" alt="Card image cap" />
+                    <div class="card-body">
+                        <h4 class="card-title">Book Bear</h4>
+                        <p class="card-text">
+                            Full stack MERN application built with React, MongoDB, Express
+                            and NodeJS. Developed with testing using Mocha and Chai for the
+                            back end.
+                        </p>
+                        <a class="btn btn-primary" href="http://book-bear.herokuapp.com/books"
+                            target="_blank">Application</a>
+
+                        <a class="github btn btn-primary" href="https://github.com/aafmisra/project3-frontend"
+                            target="_blank">Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="badges">
+            <img class="badge-icons" src="https://img.icons8.com/color/96/000000/javascript.png" />
+            <img class="badge-icons" src="https://img.icons8.com/color/96/000000/react-native.png" />
+            <img class="badge-icons" src="https://img.icons8.com/color/96/000000/html-5.png" />
+            <img class="badge-icons" src="https://img.icons8.com/color/96/000000/nodejs.png" />
+            <img class="badge-icons" src="https://img.icons8.com/color/96/000000/python.png" />
+            <img class="badge-icons" src="https://img.icons8.com/ios-filled/100/000000/django.png" />
+        </section>
+    </section>
+    <section id="pm">
+        <h1>Product Management</h1>
+        <h1 class="pm-ethos">Research - Design - Build - Refine</h1>
+        <div class="pm-images">
+            <img class="pm-images" src="https://img.icons8.com/ios/50/FFFFFF/combo-chart.png" />
+            <img class="pm-images" src="https://img.icons8.com/ios/50/FFFFFF/design.png" />
+            <img class="pm-images" src="https://img.icons8.com/ios/50/FFFFFF/source-code.png" />
+            <img class="pm-images" src="https://img.icons8.com/ios/50/FFFFFF/inspect-code.png" />
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="reach-out">Let's Connect!</h1>
+        <!-- Github -->
+        <a class="footer-links" href="https://github.com/jpettett" target="_blank">
+            <i class="fab fa-github-square" style="font-size:50px"></i></a>
+        <!-- LinkedIn -->
+        <a class="footer-links" href="https://www.linkedin.com/in/josephpettett/" target="_blank">
+            <i class="fab fa-linkedin" style="font-size:50px"></i></a>
+        <!-- Email -->
+        <a class="footer-links" href="mailto:joseph.pettett@gmail.com" target="_blank">
+            <i class="fas fa-envelope-square" style="font-size:50px"></i></a>
+
+        <!-- contact form from Formspree -->
+        <div class="fcf-body">
+            <div id="fcf-form">
+                <form id="fcf-form-id" class="fcf-form-class" action="https://formspree.io/xlepwako" method="POST">
+
+                    <div class="fcf-form-group">
+                        <label for="Name" class="fcf-label">Your name</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
                         </div>
-                    <!-- Card 2 -->
-                        <div class="card mb-2 shadow p-3 mb-5 bg-white rounded" >
-                            <img class="card-img-top"
-                                src="/images/nasa.png"
-                                alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Nasa APOD</h4>
-                                <p class="card-text">Front end centered web applicaiton built using React hooks and NASA's public API.</p>
-                                
-                                <a class="btn btn-primary" href="https://nasaastropod.herokuapp.com/" target="_blank">Application</a>
-                                <a class="github btn btn-primary" href="https://github.com/jpettett/nasa-apod" target="_blank">Github</a>
-                            </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label">Your email address</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
                         </div>
-                    <!-- Card 3 -->
-                        <div class="card mb-2 shadow p-3 mb-5 bg-white rounded">
-                            <img class="card-img-top"
-                                src="/images/bookbear.png"
-                                alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Book Bear</h4>
-                                <p class="card-text">Full stack MERN application built with React, MongoDB, Express and NodeJS. Developed with testing using Mocha and Chai for the back end. </p>
-                                <a class="btn btn-primary" href="http://book-bear.herokuapp.com/books" target="_blank">Application</a>
-                                
-                                <a class="github btn btn-primary" href="https://github.com/aafmisra/project3-frontend" target="_blank">Github</a>
-                            </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Your message</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000"
+                                required></textarea>
                         </div>
-                   </div>
-                <!--/.First slide-->
-             </main>
-     <footer class="footer">
-            <!-- Github -->
-            <a class="footer-links" href="https://github.com/jpettett" target="_blank">
-            <i class="fab fa-github-square" style="font-size:30px"></i></a>
-            <!-- LinkedIn -->
-            <a class="footer-links" href="https://www.linkedin.com/in/josephpettett/" target="_blank">
-            <i class="fab fa-linkedin" style="font-size:30px"></i></a>
-            <!-- Email -->
-            <a class="footer-links" href="mailto:joseph.pettett@gmail.com" target="_blank">
-            <i class="fas fa-envelope-square" style="font-size:30px"></i></a>
-        </footer>
-        <!-- jquery/bootstrap script tags -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
-    </body>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button"
+                            class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send
+                            Message</button>
+                    </div>
+                    </label>
+                    <!-- your other form fields go here -->
+                </form>
+            </div>
+        </div>
+        <!-- end contact form -->
+    </section>
+    <footer>
+        © Joe Pettett 2019-2020
+    </footer>
+
+    <!-- scripts -->
+    <script type="text/javascript" src="js/app.js" defer="defer"></script>
+    <script type="text/javascript" src="js/particles.js"></script>
+</body>
+
 </html>
