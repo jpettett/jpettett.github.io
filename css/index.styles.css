@@ -15,6 +15,7 @@ h1 {
 
 h2 {
   font-family: 'Noto Sans KR', sans-serif;
+  padding-bottom: 10px;
 }
 
 nav {
@@ -31,9 +32,10 @@ header {
 }
 
 .introduction {
-  margin: 100px;
+  margin: 100px 100px 30px 100px;
   color: rgb(255, 255, 255);
 }
+
 
 .name {
   color: rgb(235, 45, 191);
@@ -106,9 +108,14 @@ header {
   background-position: center;
 }
 
+/* .greeting {
+  text-align: center;
+} */
+
 .what-am-i {
-  font-size: 70px;
+  font-size: 90px;
   color: rgb(255, 255, 255);
+  font-family: 'Lato', sans-serif;
 }
 
 .reach-out {
@@ -336,6 +343,10 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   .card {
     margin: 0 auto;
   }
+
+  .what-am-i {
+    font-size: 70px;
+  }
   
 }
 
@@ -378,7 +389,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   }
 
   .what-am-i {
-    font-size: 40px;
+    font-size: 60px;
   }
 
 
