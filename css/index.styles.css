@@ -32,7 +32,7 @@ header {
 
 .introduction {
   margin: 100px;
-  color: rgb(228, 217, 134);
+  color: rgb(255, 255, 255);
 }
 
 .name {
@@ -74,12 +74,13 @@ header {
   position: absolute;
   width: 100%;
   z-index: -1;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom right,
     rgb(24, 24, 24),
     rgb(101, 101, 98)
-  );
+  ); */
   height: 500px;
+  background-color: rgba(0, 0, 0, 0.886);
 }
 
 .pm-images {
@@ -103,6 +104,11 @@ header {
   width: 100%;
   background-attachment: fixed;
   background-position: center;
+}
+
+.what-am-i {
+  font-size: 70px;
+  color: rgb(255, 255, 255);
 }
 
 .reach-out {
