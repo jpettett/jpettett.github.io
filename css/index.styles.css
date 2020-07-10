@@ -408,7 +408,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 520px) {
 
    #particles-js {
     height: 500px;
@@ -428,6 +428,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
   .what-am-i {
     font-size: 40px;
+    margin-bottom: 50px;
   }
 
 }
