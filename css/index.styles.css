@@ -377,6 +377,11 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     height: 500px;
   }
 
+  .what-am-i {
+    font-size: 40px;
+  }
+
+
 }
 
 @media only screen and (max-width: 710px) {
@@ -384,6 +389,11 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   .pm-images{
     margin: 10px;
   }
+
+  .what-am-i {
+    font-size: 60px;
+  }
+
 
 }
 
@@ -403,6 +413,10 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
   .pm-ethos {
     font-size: 30px;;
+  }
+
+  .what-am-i {
+    font-size: 40px;
   }
 
 }
