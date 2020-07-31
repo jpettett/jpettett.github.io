@@ -107,38 +107,36 @@ header {
   background-attachment: fixed;
   background-position: center;
   padding-top: 95px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.516);
+  margin-bottom: 1px;
 }
 
 #development {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  height: 600px;
+  height: 700px;
   width: 100%;
-  margin-top: 20px;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.516);
+  padding-top: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: rgba(186, 187, 187, 0.31);
 }
 
 .design-intro {
-  margin: 50px 0px -50px 60px;
-  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: left;
   width: 500px;
+  margin-left: 80px;
+  margin-top: 100px;
+  margin-bottom: -180px;
 }
 
 .keeptrucking {
-  border-radius: 10%;
-  box-shadow: 5px 8px rgba(20, 20, 24, 0.146);
   float: right;
-  height: 300px;
-  width: 470px;
-  margin: 0px 50px 0px 0px;
-
+  height: 520px;
+  width: 720px;
 }
 
 .design-badges {
-  margin-top: 40px;
-  padding: 25px;
-  float: left;
+  margin-top: 300px;
 }
 
 .what-am-i {
