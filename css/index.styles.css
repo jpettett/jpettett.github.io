@@ -111,7 +111,7 @@ header {
 }
 
 #development {
-  height: 700px;
+  height: 760px;
   width: 100%;
   padding-top: 25px;
   margin-bottom: 20px;
@@ -136,7 +136,8 @@ header {
 }
 
 .design-badges {
-  margin-top: 300px;
+  margin-top: 100px;
+  padding: 15px;
 }
 
 .what-am-i {
@@ -349,6 +350,47 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 
 /* media */
+@media only screen and (max-width: 1300px) {
+
+  .design-badges {
+    padding: 5px;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  
+  #development {
+  /* text-align: center; */
+  display: inline-block;
+  height: 760px;
+  width: 100%;
+  padding-top: 5px;
+  background-color: rgba(186, 187, 187, 0.31);
+}
+
+  .design-intro {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  width: 500px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.keeptrucking {
+  text-align: center;
+  height: 420px;
+  width: 680px;
+}
+
+.design-badges {
+  display: inline-block;
+  margin-top: 5px;
+}
+}
+
 @media only screen and (max-width: 1000px) {
   
   #pm {
@@ -374,6 +416,15 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   .what-am-i {
     font-size: 70px;
   }
+
+  .design-badges {
+  display: inline-block;
+}
+
+.keeptrucking {
+  height: 420px;
+  width: 680px;
+}
   
 }
 
@@ -419,10 +470,26 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     font-size: 60px;
   }
 
+  .design-badges {
+  display: inline-block;
+}
+
+.design-intro {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  display: inline-block;
+}
 
 }
 
 @media only screen and (max-width: 710px) {
+
+
+  .keeptrucking {
+  text-align: center;
+  height: 420px;
+  width: 580px;
+}
 
   .pm-images{
     margin: 10px;
@@ -432,10 +499,35 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     font-size: 60px;
   }
 
+  .design-badges {
+  display: inline-block;
+}
+
 
 }
 
 @media only screen and (max-width: 520px) {
+
+  .design-intro {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  display: inline-block;
+  width: 300px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+  .keeptrucking {
+  text-align: center;
+  height: 340px;
+  width: 400px;
+}
+
+  .design-badges {
+  display: inline-block;
+}
+
 
    #particles-js {
     height: 500px;
