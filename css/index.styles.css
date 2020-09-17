@@ -185,6 +185,11 @@ footer {
   margin: 0px 25px 0px 10px;
 }
 
+.card-img-top {
+  height: 210px;
+  width: 300px;
+}
+
 /* contact form */
 #fcf-form {
     display:block;
